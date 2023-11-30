@@ -15,4 +15,4 @@ COPY conf/conf.conf /etc/php/7.4/fpm/pool.d/www.conf
 COPY conf/conf.sh   .
 
 
-ENTRYPOINT [ "bash", "conf.sh" ]
+ENTRYPOINT ["bash", "conf.sh"]
